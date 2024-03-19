@@ -4,7 +4,7 @@ public class BotMessage {
     //automated response program 
     /*
     User message: "1", Reply: "Order confirmed"
-    User message: "2", Reply: "info@sololearn.com"
+    User message: "2", Reply: "vanesabulnes@gmail.com"
     For any other number, the reply should be: "Try again". 
     */
     public static void main(String[] args) {
@@ -17,7 +17,7 @@ public class BotMessage {
             System.out.println("Order confirmed");
         } 
         else if(number == 2){
-            System.out.println("info@sololearn.com");
+            System.out.println("vanesabulnes@gmail.com");
         } else
         System.out.println("Try again");
     }
